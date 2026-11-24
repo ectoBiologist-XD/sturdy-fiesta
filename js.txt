@@ -1,0 +1,19 @@
+let nama  = 'fadil'
+let hasil = ''
+let vokal = ['a', 'i']
+// for(let i = nama.length - 1; i >= 0; i--){
+//   hasil += nama[i]
+// }
+// console.log(hasil)
+for(let i = 0; i < nama.length; i++){
+  if(nama[i] == vokal[0]){
+    hasil += 4
+  } else if(nama[i] == vokal[1]) {
+    hasil += 1
+  } else {
+    hasil += nama[i]
+  }
+}
+console.log(hasil)
+
+  // }
